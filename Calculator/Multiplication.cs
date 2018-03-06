@@ -22,7 +22,14 @@ namespace martin2250.Calculator
 			foreach (var operand in Operands)
 			{
 				if (operand.Item2)
-					value /= operand.Item1.GetValue(variables);
+				{
+					double opvalue = operand.Item1.GetValue(variables);
+
+					if (opvalue == 0.0)
+						throw new Exception("division by zero");
+
+					value /= opvalue;
+				}
 				else
 					value *= operand.Item1.GetValue(variables);
 			}
