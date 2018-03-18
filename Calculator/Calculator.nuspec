@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>martin2250.Calculator</id>
+    <version>1.0.0</version>
+    <title>martin2250.Calculator</title>
+    <authors>martin2250</authors>
+    <owners>martin2250</owners>
+    <licenseUrl>https://github.com/martin2250/Calculator/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/martin2250/Calculator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A very light weight expression evaluation engine</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>calculate calculator expression expressions calculation engine math</tags>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+    <file src="bin\Release\Calculator.dll" target="lib\net4.6.1\Calculator.dll" />
+    <file src="bin\Release\Calculator.xml" target="lib\net4.6.1\Calculator.xml" />
+  </files>
+</package>
